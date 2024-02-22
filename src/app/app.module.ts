@@ -3,10 +3,16 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
+import { CardNewsComponent } from './component/card-news/card-news.component';
+import { CardMostViewsComponent } from './component/card-most-views/card-most-views.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MenuBarComponent,
+    CardNewsComponent,
+    CardMostViewsComponent
   ],
   imports: [
     BrowserModule,

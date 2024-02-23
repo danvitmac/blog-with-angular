@@ -24,3 +24,16 @@ li{
   margin: .825rem 0 0 .5rem;
 }
 
+a {
+  color: #414242;
+  text-decoration: none;
+  transition: all .4s ;
+}
+a:hover {
+  font-size:1.005em;
+  color: white;
+  text-decoration: none;
+  -webkit-text-stroke: 1.5px #207C6F;
+  transition-timing-function: ease-in-out;
+}
+

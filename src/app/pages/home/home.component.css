@@ -8,3 +8,9 @@
 .articles__main{
   margin-right: 1rem;
 }
+
+h5{
+  margin-top: 0.5rem;
+    color: grey;
+    text-align: center;
+}

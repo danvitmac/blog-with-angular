@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-card-most-views',
@@ -6,6 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./card-most-views.component.css']
 })
 export class CardMostViewsComponent implements OnInit {
+  @Input()
+  photoCover:string = ""
+  @Input()
+  cardTitle:string = ""
+
+  @Input()
+  id:string="0"
 
   constructor() { }
 

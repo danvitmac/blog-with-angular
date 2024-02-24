@@ -1,7 +1,7 @@
 <aside>
-  <a href="#">
-    <img class="most-views-photo" src="https://www.compcorp.com.br/wp-content/uploads/2019/09/laborat%C3%B3rio.png" alt="" srcset="">
-    <h5 class="most-views-title">Título Most Views - Veja a maravilhosa ideia de um grande cientista que vai mudar a sua vida para sempre</h5>
+  <a [routerLink]="['content', id]">
+    <img class="most-views-photo" src="{{ photoCover}}" alt="" srcset="">
+    <h5 class="most-views-title">{{ cardTitle }}</h5>
   </a>
   <hr />
 </aside>
